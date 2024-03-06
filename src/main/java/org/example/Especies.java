@@ -3,6 +3,7 @@ package org.example;
 public class Especies {
     public String especie;
 
+
     public Especies() {
         especie = "No definido";
     }
@@ -15,6 +16,7 @@ public class Especies {
     public void setEspecie(String especie) {
         this.especie = especie;
     }
+
 
     @Override
     public String toString() {
