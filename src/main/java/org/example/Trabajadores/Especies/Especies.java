@@ -1,4 +1,4 @@
-package org.example.Trabajadores;
+package org.example.Trabajadores.Especies;
 
 public class Especies {
     public String especie;
