@@ -1,6 +1,6 @@
 package org.example.Trabajadores.Especies;
 
-public class Aves {
+public class Aves extends Especies{
     public int alas;
     public int plumaje;
 
@@ -28,7 +28,7 @@ public class Aves {
         this.plumaje = plumaje;
     }
 
-    public class Aguila extends Aves {
+    public static class Aguila extends Aves {
         public Aguila() {
             super("Aguila", 5, false, 5, 2, 5);
         }
@@ -37,7 +37,7 @@ public class Aves {
         }
     }
 
-    public class Cotorro extends Aves {
+    public static class Cotorro extends Aves {
         public Cotorro() {
             super("Cotorro", 5, false, 5, 2, 5);
         }
@@ -46,7 +46,7 @@ public class Aves {
         }
     }
 
-    public class Loro extends Aves {
+    public static class Loro extends Aves {
         public Loro() {
             super("Loro", 5, false, 5, 2, 5);
         }
@@ -55,7 +55,7 @@ public class Aves {
         }
     }
 
-    public class Pinguino extends Aves {
+    public static class Pinguino extends Aves {
         public Pinguino() {
             super("Pinguino", 5, false, 5, 2, 5);
         }

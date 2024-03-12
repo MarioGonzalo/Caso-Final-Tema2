@@ -30,7 +30,7 @@ public class Mamiferos extends Especies {
         this.pelaje = pelaje;
     }
 
-    public class Leon extends Mamiferos {
+    public static class Leon extends Mamiferos {
         public Leon() {
             super("Leon", 5, false, 5, 4, 5);
         }
@@ -39,7 +39,7 @@ public class Mamiferos extends Especies {
         }
     }
 
-    public class Tigre extends Mamiferos {
+    public static class Tigre extends Mamiferos {
         public Tigre() {
             super("Tigre", 5, false, 5, 4, 5);
         }
@@ -48,7 +48,7 @@ public class Mamiferos extends Especies {
         }
     }
 
-    public class Oso extends Mamiferos {
+    public static class Oso extends Mamiferos {
         public Oso() {
             super("Oso", 5, false, 5, 4, 5);
         }
@@ -57,7 +57,7 @@ public class Mamiferos extends Especies {
         }
     }
 
-    public class Elefante extends Mamiferos {
+    public static class Elefante extends Mamiferos {
         public Elefante() {
             super("Elefante", 5, false, 5, 4, 5);
         }
